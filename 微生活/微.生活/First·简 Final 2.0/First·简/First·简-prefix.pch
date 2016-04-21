@@ -1,0 +1,29 @@
+//
+//  First·简-prefix.pch
+//  First·简
+//
+//  Created by yearwen on 15-6-11.
+//  Copyright (c) 2015年 张耀文. All rights reserved.
+//
+
+#ifndef First___First___prefix_pch
+#define First___First___prefix_pch
+
+#import <Availability.h>
+
+    
+#ifndef __IPHONE_3_0
+    #warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import "AppDelegate.h"
+
+    #import "Defin.h"
+
+
+#endif
+#endif

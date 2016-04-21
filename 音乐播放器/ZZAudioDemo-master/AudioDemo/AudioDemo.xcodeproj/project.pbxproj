@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4D555871C3E0F31002371B2 /* 十七岁的雨季.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A4D555691C3E0F31002371B2 /* 十七岁的雨季.lrc */; };
+		A4D555881C3E0F31002371B2 /* 十七岁的雨季.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4D5556A1C3E0F31002371B2 /* 十七岁的雨季.mp3 */; };
+		A4D555891C3E0F31002371B2 /* 十七岁的雨季.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D5556B1C3E0F31002371B2 /* 十七岁的雨季.png */; };
+		A4D5558A1C3E0F31002371B2 /* 单身情歌.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A4D5556C1C3E0F31002371B2 /* 单身情歌.lrc */; };
+		A4D5558B1C3E0F31002371B2 /* 单身情歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4D5556D1C3E0F31002371B2 /* 单身情歌.mp3 */; };
+		A4D5558C1C3E0F31002371B2 /* 单身情歌.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D5556E1C3E0F31002371B2 /* 单身情歌.png */; };
+		A4D5558D1C3E0F31002371B2 /* 夜太黑.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A4D5556F1C3E0F31002371B2 /* 夜太黑.lrc */; };
+		A4D5558E1C3E0F31002371B2 /* 夜太黑.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4D555701C3E0F31002371B2 /* 夜太黑.mp3 */; };
+		A4D5558F1C3E0F31002371B2 /* 夜太黑.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D555711C3E0F31002371B2 /* 夜太黑.png */; };
+		A4D555901C3E0F31002371B2 /* 大约在冬季.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A4D555721C3E0F31002371B2 /* 大约在冬季.lrc */; };
+		A4D555911C3E0F31002371B2 /* 大约在冬季.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4D555731C3E0F31002371B2 /* 大约在冬季.mp3 */; };
+		A4D555921C3E0F31002371B2 /* 大约在冬季.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D555741C3E0F31002371B2 /* 大约在冬季.png */; };
+		A4D555931C3E0F31002371B2 /* 春天花会开.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A4D555751C3E0F31002371B2 /* 春天花会开.lrc */; };
+		A4D555941C3E0F31002371B2 /* 春天花会开.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4D555761C3E0F31002371B2 /* 春天花会开.mp3 */; };
+		A4D555951C3E0F31002371B2 /* 春天花会开.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D555771C3E0F31002371B2 /* 春天花会开.png */; };
+		A4D555961C3E0F31002371B2 /* 白月光.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A4D555781C3E0F31002371B2 /* 白月光.lrc */; };
+		A4D555971C3E0F31002371B2 /* 白月光.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4D555791C3E0F31002371B2 /* 白月光.mp3 */; };
+		A4D555981C3E0F31002371B2 /* 白月光.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D5557A1C3E0F31002371B2 /* 白月光.png */; };
+		A4D555991C3E0F31002371B2 /* 红豆.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A4D5557B1C3E0F31002371B2 /* 红豆.lrc */; };
+		A4D5559A1C3E0F31002371B2 /* 红豆.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4D5557C1C3E0F31002371B2 /* 红豆.mp3 */; };
+		A4D5559B1C3E0F31002371B2 /* 红豆.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D5557D1C3E0F31002371B2 /* 红豆.png */; };
+		A4D5559C1C3E0F31002371B2 /* 蜀绣.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A4D5557E1C3E0F31002371B2 /* 蜀绣.lrc */; };
+		A4D5559D1C3E0F31002371B2 /* 蜀绣.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4D5557F1C3E0F31002371B2 /* 蜀绣.mp3 */; };
+		A4D5559E1C3E0F31002371B2 /* 蜀绣.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D555801C3E0F31002371B2 /* 蜀绣.png */; };
+		A4D5559F1C3E0F31002371B2 /* 谢谢你的爱1999.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A4D555811C3E0F31002371B2 /* 谢谢你的爱1999.lrc */; };
+		A4D555A01C3E0F31002371B2 /* 谢谢你的爱1999.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4D555821C3E0F31002371B2 /* 谢谢你的爱1999.mp3 */; };
+		A4D555A11C3E0F31002371B2 /* 谢谢你的爱1999.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D555831C3E0F31002371B2 /* 谢谢你的爱1999.png */; };
+		A4D555A21C3E0F31002371B2 /* 阴天.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A4D555841C3E0F31002371B2 /* 阴天.lrc */; };
+		A4D555A31C3E0F31002371B2 /* 阴天.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4D555851C3E0F31002371B2 /* 阴天.mp3 */; };
+		A4D555A41C3E0F31002371B2 /* 阴天.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D555861C3E0F31002371B2 /* 阴天.png */; };
+		DAF103561C3B99B100A38DE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF103551C3B99B100A38DE3 /* main.m */; };
+		DAF103591C3B99B100A38DE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF103581C3B99B100A38DE3 /* AppDelegate.m */; };
+		DAF1035C1C3B99B100A38DE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF1035B1C3B99B100A38DE3 /* ViewController.m */; };
+		DAF1035F1C3B99B100A38DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF1035D1C3B99B100A38DE3 /* Main.storyboard */; };
+		DAF103611C3B99B100A38DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF103601C3B99B100A38DE3 /* Assets.xcassets */; };
+		DAF103641C3B99B100A38DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF103621C3B99B100A38DE3 /* LaunchScreen.storyboard */; };
+		DAF1036D1C3B9BA400A38DE3 /* LocalAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF1036C1C3B9BA400A38DE3 /* LocalAudioViewController.m */; };
+		DAF103701C3B9BB000A38DE3 /* RemoteAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF1036F1C3B9BB000A38DE3 /* RemoteAudioViewController.m */; };
+		DAF103721C3B9C3200A38DE3 /* LocalAudioViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF103711C3B9C3200A38DE3 /* LocalAudioViewController.storyboard */; };
+		DAF103741C3B9C3D00A38DE3 /* RemoteAudioViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF103731C3B9C3D00A38DE3 /* RemoteAudioViewController.storyboard */; };
+		DAF103B71C3BAB3500A38DE3 /* 北京北京.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DAF103AB1C3BAB3500A38DE3 /* 北京北京.lrc */; };
+		DAF103B81C3BAB3500A38DE3 /* 北京北京.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAF103AC1C3BAB3500A38DE3 /* 北京北京.mp3 */; };
+		DAF103B91C3BAB3500A38DE3 /* 喜欢你.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DAF103AD1C3BAB3500A38DE3 /* 喜欢你.lrc */; };
+		DAF103BA1C3BAB3500A38DE3 /* 喜欢你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAF103AE1C3BAB3500A38DE3 /* 喜欢你.mp3 */; };
+		DAF103BB1C3BAB3500A38DE3 /* 夏洛特烦恼.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DAF103AF1C3BAB3500A38DE3 /* 夏洛特烦恼.lrc */; };
+		DAF103BC1C3BAB3500A38DE3 /* 夏洛特烦恼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAF103B01C3BAB3500A38DE3 /* 夏洛特烦恼.mp3 */; };
+		DAF103BD1C3BAB3500A38DE3 /* 大约在冬季.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DAF103B11C3BAB3500A38DE3 /* 大约在冬季.lrc */; };
+		DAF103BE1C3BAB3500A38DE3 /* 大约在冬季.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAF103B21C3BAB3500A38DE3 /* 大约在冬季.mp3 */; };
+		DAF103BF1C3BAB3500A38DE3 /* 我的歌声里.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DAF103B31C3BAB3500A38DE3 /* 我的歌声里.lrc */; };
+		DAF103C01C3BAB3500A38DE3 /* 我的歌声里.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAF103B41C3BAB3500A38DE3 /* 我的歌声里.mp3 */; };
+		DAF103C11C3BAB3500A38DE3 /* 白月光.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DAF103B51C3BAB3500A38DE3 /* 白月光.lrc */; };
+		DAF103C21C3BAB3500A38DE3 /* 白月光.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAF103B61C3BAB3500A38DE3 /* 白月光.mp3 */; };
+		DAF103C51C3BB3A200A38DE3 /* ZZAudioItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF103C41C3BB3A200A38DE3 /* ZZAudioItem.m */; };
+		DAF103C81C3BB94700A38DE3 /* ZZLRCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF103C71C3BB94700A38DE3 /* ZZLRCParser.m */; };
+		DAF103CA1C3CA2F400A38DE3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF103C91C3CA2F400A38DE3 /* MediaPlayer.framework */; };
+		DAF103CC1C3CAA2600A38DE3 /* test_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAF103CB1C3CAA2600A38DE3 /* test_0.jpg */; };
+		DAF103D11C3CB2B600A38DE3 /* test_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAF103CD1C3CB2B600A38DE3 /* test_2.jpg */; };
+		DAF103D21C3CB2B600A38DE3 /* test_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAF103CE1C3CB2B600A38DE3 /* test_1.jpg */; };
+		DAF103D31C3CB2B600A38DE3 /* test_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAF103CF1C3CB2B600A38DE3 /* test_3.jpg */; };
+		DAF103D41C3CB2B600A38DE3 /* test_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAF103D01C3CB2B600A38DE3 /* test_5.jpg */; };
+		DAF103D61C3CB2BC00A38DE3 /* test_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAF103D51C3CB2BC00A38DE3 /* test_4.jpg */; };
+		DAF104061C3CFA6B00A38DE3 /* ZZArtworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF104051C3CFA6B00A38DE3 /* ZZArtworkHelper.m */; };
+		DAF104091C3D042F00A38DE3 /* UIImage+ZZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF104081C3D042F00A38DE3 /* UIImage+ZZHelper.m */; };
+		DAF1040B1C3D0C9600A38DE3 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1040A1C3D0C9600A38DE3 /* placeholder.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4D555691C3E0F31002371B2 /* 十七岁的雨季.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "十七岁的雨季.lrc"; sourceTree = "<group>"; };
+		A4D5556A1C3E0F31002371B2 /* 十七岁的雨季.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "十七岁的雨季.mp3"; sourceTree = "<group>"; };
+		A4D5556B1C3E0F31002371B2 /* 十七岁的雨季.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "十七岁的雨季.png"; sourceTree = "<group>"; };
+		A4D5556C1C3E0F31002371B2 /* 单身情歌.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "单身情歌.lrc"; sourceTree = "<group>"; };
+		A4D5556D1C3E0F31002371B2 /* 单身情歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "单身情歌.mp3"; sourceTree = "<group>"; };
+		A4D5556E1C3E0F31002371B2 /* 单身情歌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单身情歌.png"; sourceTree = "<group>"; };
+		A4D5556F1C3E0F31002371B2 /* 夜太黑.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "夜太黑.lrc"; sourceTree = "<group>"; };
+		A4D555701C3E0F31002371B2 /* 夜太黑.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "夜太黑.mp3"; sourceTree = "<group>"; };
+		A4D555711C3E0F31002371B2 /* 夜太黑.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "夜太黑.png"; sourceTree = "<group>"; };
+		A4D555721C3E0F31002371B2 /* 大约在冬季.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "大约在冬季.lrc"; sourceTree = "<group>"; };
+		A4D555731C3E0F31002371B2 /* 大约在冬季.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "大约在冬季.mp3"; sourceTree = "<group>"; };
+		A4D555741C3E0F31002371B2 /* 大约在冬季.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大约在冬季.png"; sourceTree = "<group>"; };
+		A4D555751C3E0F31002371B2 /* 春天花会开.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "春天花会开.lrc"; sourceTree = "<group>"; };
+		A4D555761C3E0F31002371B2 /* 春天花会开.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "春天花会开.mp3"; sourceTree = "<group>"; };
+		A4D555771C3E0F31002371B2 /* 春天花会开.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "春天花会开.png"; sourceTree = "<group>"; };
+		A4D555781C3E0F31002371B2 /* 白月光.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "白月光.lrc"; sourceTree = "<group>"; };
+		A4D555791C3E0F31002371B2 /* 白月光.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "白月光.mp3"; sourceTree = "<group>"; };
+		A4D5557A1C3E0F31002371B2 /* 白月光.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白月光.png"; sourceTree = "<group>"; };
+		A4D5557B1C3E0F31002371B2 /* 红豆.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "红豆.lrc"; sourceTree = "<group>"; };
+		A4D5557C1C3E0F31002371B2 /* 红豆.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "红豆.mp3"; sourceTree = "<group>"; };
+		A4D5557D1C3E0F31002371B2 /* 红豆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红豆.png"; sourceTree = "<group>"; };
+		A4D5557E1C3E0F31002371B2 /* 蜀绣.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "蜀绣.lrc"; sourceTree = "<group>"; };
+		A4D5557F1C3E0F31002371B2 /* 蜀绣.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "蜀绣.mp3"; sourceTree = "<group>"; };
+		A4D555801C3E0F31002371B2 /* 蜀绣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蜀绣.png"; sourceTree = "<group>"; };
+		A4D555811C3E0F31002371B2 /* 谢谢你的爱1999.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "谢谢你的爱1999.lrc"; sourceTree = "<group>"; };
+		A4D555821C3E0F31002371B2 /* 谢谢你的爱1999.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "谢谢你的爱1999.mp3"; sourceTree = "<group>"; };
+		A4D555831C3E0F31002371B2 /* 谢谢你的爱1999.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "谢谢你的爱1999.png"; sourceTree = "<group>"; };
+		A4D555841C3E0F31002371B2 /* 阴天.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "阴天.lrc"; sourceTree = "<group>"; };
+		A4D555851C3E0F31002371B2 /* 阴天.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "阴天.mp3"; sourceTree = "<group>"; };
+		A4D555861C3E0F31002371B2 /* 阴天.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阴天.png"; sourceTree = "<group>"; };
+		DAF103511C3B99B100A38DE3 /* AudioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF103551C3B99B100A38DE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAF103571C3B99B100A38DE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAF103581C3B99B100A38DE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAF1035A1C3B99B100A38DE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAF1035B1C3B99B100A38DE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAF1035E1C3B99B100A38DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAF103601C3B99B100A38DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF103631C3B99B100A38DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAF103651C3B99B100A38DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF1036B1C3B9BA400A38DE3 /* LocalAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalAudioViewController.h; sourceTree = "<group>"; };
+		DAF1036C1C3B9BA400A38DE3 /* LocalAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalAudioViewController.m; sourceTree = "<group>"; };
+		DAF1036E1C3B9BB000A38DE3 /* RemoteAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteAudioViewController.h; sourceTree = "<group>"; };
+		DAF1036F1C3B9BB000A38DE3 /* RemoteAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteAudioViewController.m; sourceTree = "<group>"; };
+		DAF103711C3B9C3200A38DE3 /* LocalAudioViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LocalAudioViewController.storyboard; sourceTree = "<group>"; };
+		DAF103731C3B9C3D00A38DE3 /* RemoteAudioViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RemoteAudioViewController.storyboard; sourceTree = "<group>"; };
+		DAF103AB1C3BAB3500A38DE3 /* 北京北京.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "北京北京.lrc"; sourceTree = "<group>"; };
+		DAF103AC1C3BAB3500A38DE3 /* 北京北京.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "北京北京.mp3"; sourceTree = "<group>"; };
+		DAF103AD1C3BAB3500A38DE3 /* 喜欢你.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "喜欢你.lrc"; sourceTree = "<group>"; };
+		DAF103AE1C3BAB3500A38DE3 /* 喜欢你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "喜欢你.mp3"; sourceTree = "<group>"; };
+		DAF103AF1C3BAB3500A38DE3 /* 夏洛特烦恼.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "夏洛特烦恼.lrc"; sourceTree = "<group>"; };
+		DAF103B01C3BAB3500A38DE3 /* 夏洛特烦恼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "夏洛特烦恼.mp3"; sourceTree = "<group>"; };
+		DAF103B11C3BAB3500A38DE3 /* 大约在冬季.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "大约在冬季.lrc"; sourceTree = "<group>"; };
+		DAF103B21C3BAB3500A38DE3 /* 大约在冬季.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "大约在冬季.mp3"; sourceTree = "<group>"; };
+		DAF103B31C3BAB3500A38DE3 /* 我的歌声里.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "我的歌声里.lrc"; sourceTree = "<group>"; };
+		DAF103B41C3BAB3500A38DE3 /* 我的歌声里.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我的歌声里.mp3"; sourceTree = "<group>"; };
+		DAF103B51C3BAB3500A38DE3 /* 白月光.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "白月光.lrc"; sourceTree = "<group>"; };
+		DAF103B61C3BAB3500A38DE3 /* 白月光.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "白月光.mp3"; sourceTree = "<group>"; };
+		DAF103C31C3BB3A200A38DE3 /* ZZAudioItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAudioItem.h; sourceTree = "<group>"; };
+		DAF103C41C3BB3A200A38DE3 /* ZZAudioItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZAudioItem.m; sourceTree = "<group>"; };
+		DAF103C61C3BB94700A38DE3 /* ZZLRCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZLRCParser.h; sourceTree = "<group>"; };
+		DAF103C71C3BB94700A38DE3 /* ZZLRCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZLRCParser.m; sourceTree = "<group>"; };
+		DAF103C91C3CA2F400A38DE3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DAF103CB1C3CAA2600A38DE3 /* test_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_0.jpg; sourceTree = "<group>"; };
+		DAF103CD1C3CB2B600A38DE3 /* test_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_2.jpg; sourceTree = "<group>"; };
+		DAF103CE1C3CB2B600A38DE3 /* test_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_1.jpg; sourceTree = "<group>"; };
+		DAF103CF1C3CB2B600A38DE3 /* test_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_3.jpg; sourceTree = "<group>"; };
+		DAF103D01C3CB2B600A38DE3 /* test_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_5.jpg; sourceTree = "<group>"; };
+		DAF103D51C3CB2BC00A38DE3 /* test_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_4.jpg; sourceTree = "<group>"; };
+		DAF104041C3CFA6B00A38DE3 /* ZZArtworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZArtworkHelper.h; sourceTree = "<group>"; };
+		DAF104051C3CFA6B00A38DE3 /* ZZArtworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZArtworkHelper.m; sourceTree = "<group>"; };
+		DAF104071C3D042F00A38DE3 /* UIImage+ZZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZZHelper.h"; sourceTree = "<group>"; };
+		DAF104081C3D042F00A38DE3 /* UIImage+ZZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZZHelper.m"; sourceTree = "<group>"; };
+		DAF1040A1C3D0C9600A38DE3 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF1034E1C3B99B100A38DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF103CA1C3CA2F400A38DE3 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4D555681C3E0F31002371B2 /* MP3 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D555691C3E0F31002371B2 /* 十七岁的雨季.lrc */,
+				A4D5556A1C3E0F31002371B2 /* 十七岁的雨季.mp3 */,
+				A4D5556B1C3E0F31002371B2 /* 十七岁的雨季.png */,
+				A4D5556C1C3E0F31002371B2 /* 单身情歌.lrc */,
+				A4D5556D1C3E0F31002371B2 /* 单身情歌.mp3 */,
+				A4D5556E1C3E0F31002371B2 /* 单身情歌.png */,
+				A4D5556F1C3E0F31002371B2 /* 夜太黑.lrc */,
+				A4D555701C3E0F31002371B2 /* 夜太黑.mp3 */,
+				A4D555711C3E0F31002371B2 /* 夜太黑.png */,
+				A4D555721C3E0F31002371B2 /* 大约在冬季.lrc */,
+				A4D555731C3E0F31002371B2 /* 大约在冬季.mp3 */,
+				A4D555741C3E0F31002371B2 /* 大约在冬季.png */,
+				A4D555751C3E0F31002371B2 /* 春天花会开.lrc */,
+				A4D555761C3E0F31002371B2 /* 春天花会开.mp3 */,
+				A4D555771C3E0F31002371B2 /* 春天花会开.png */,
+				A4D555781C3E0F31002371B2 /* 白月光.lrc */,
+				A4D555791C3E0F31002371B2 /* 白月光.mp3 */,
+				A4D5557A1C3E0F31002371B2 /* 白月光.png */,
+				A4D5557B1C3E0F31002371B2 /* 红豆.lrc */,
+				A4D5557C1C3E0F31002371B2 /* 红豆.mp3 */,
+				A4D5557D1C3E0F31002371B2 /* 红豆.png */,
+				A4D5557E1C3E0F31002371B2 /* 蜀绣.lrc */,
+				A4D5557F1C3E0F31002371B2 /* 蜀绣.mp3 */,
+				A4D555801C3E0F31002371B2 /* 蜀绣.png */,
+				A4D555811C3E0F31002371B2 /* 谢谢你的爱1999.lrc */,
+				A4D555821C3E0F31002371B2 /* 谢谢你的爱1999.mp3 */,
+				A4D555831C3E0F31002371B2 /* 谢谢你的爱1999.png */,
+				A4D555841C3E0F31002371B2 /* 阴天.lrc */,
+				A4D555851C3E0F31002371B2 /* 阴天.mp3 */,
+				A4D555861C3E0F31002371B2 /* 阴天.png */,
+			);
+			name = MP3;
+			path = AudioDemo/MP3;
+			sourceTree = "<group>";
+		};
+		DAF103481C3B99B100A38DE3 = {
+			isa = PBXGroup;
+			children = (
+				A4D555681C3E0F31002371B2 /* MP3 */,
+				DAF103C91C3CA2F400A38DE3 /* MediaPlayer.framework */,
+				DAF103531C3B99B100A38DE3 /* AudioDemo */,
+				DAF103521C3B99B100A38DE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF103521C3B99B100A38DE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF103511C3B99B100A38DE3 /* AudioDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF103531C3B99B100A38DE3 /* AudioDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DAF103571C3B99B100A38DE3 /* AppDelegate.h */,
+				DAF103581C3B99B100A38DE3 /* AppDelegate.m */,
+				DAF1035A1C3B99B100A38DE3 /* ViewController.h */,
+				DAF1035B1C3B99B100A38DE3 /* ViewController.m */,
+				DAF1035D1C3B99B100A38DE3 /* Main.storyboard */,
+				DAF1036B1C3B9BA400A38DE3 /* LocalAudioViewController.h */,
+				DAF1036C1C3B9BA400A38DE3 /* LocalAudioViewController.m */,
+				DAF103711C3B9C3200A38DE3 /* LocalAudioViewController.storyboard */,
+				DAF1036E1C3B9BB000A38DE3 /* RemoteAudioViewController.h */,
+				DAF1036F1C3B9BB000A38DE3 /* RemoteAudioViewController.m */,
+				DAF103731C3B9C3D00A38DE3 /* RemoteAudioViewController.storyboard */,
+				DAF103C31C3BB3A200A38DE3 /* ZZAudioItem.h */,
+				DAF103C41C3BB3A200A38DE3 /* ZZAudioItem.m */,
+				DAF103C61C3BB94700A38DE3 /* ZZLRCParser.h */,
+				DAF103C71C3BB94700A38DE3 /* ZZLRCParser.m */,
+				DAF104041C3CFA6B00A38DE3 /* ZZArtworkHelper.h */,
+				DAF104051C3CFA6B00A38DE3 /* ZZArtworkHelper.m */,
+				DAF104071C3D042F00A38DE3 /* UIImage+ZZHelper.h */,
+				DAF104081C3D042F00A38DE3 /* UIImage+ZZHelper.m */,
+				DAF103AA1C3BAB3500A38DE3 /* Resource */,
+				DAF103601C3B99B100A38DE3 /* Assets.xcassets */,
+				DAF103621C3B99B100A38DE3 /* LaunchScreen.storyboard */,
+				DAF103651C3B99B100A38DE3 /* Info.plist */,
+				DAF103541C3B99B100A38DE3 /* Supporting Files */,
+			);
+			path = AudioDemo;
+			sourceTree = "<group>";
+		};
+		DAF103541C3B99B100A38DE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAF103551C3B99B100A38DE3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAF103AA1C3BAB3500A38DE3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DAF1040A1C3D0C9600A38DE3 /* placeholder.png */,
+				DAF103CB1C3CAA2600A38DE3 /* test_0.jpg */,
+				DAF103CE1C3CB2B600A38DE3 /* test_1.jpg */,
+				DAF103CD1C3CB2B600A38DE3 /* test_2.jpg */,
+				DAF103CF1C3CB2B600A38DE3 /* test_3.jpg */,
+				DAF103D51C3CB2BC00A38DE3 /* test_4.jpg */,
+				DAF103D01C3CB2B600A38DE3 /* test_5.jpg */,
+				DAF103AB1C3BAB3500A38DE3 /* 北京北京.lrc */,
+				DAF103AC1C3BAB3500A38DE3 /* 北京北京.mp3 */,
+				DAF103AD1C3BAB3500A38DE3 /* 喜欢你.lrc */,
+				DAF103AE1C3BAB3500A38DE3 /* 喜欢你.mp3 */,
+				DAF103AF1C3BAB3500A38DE3 /* 夏洛特烦恼.lrc */,
+				DAF103B01C3BAB3500A38DE3 /* 夏洛特烦恼.mp3 */,
+				DAF103B11C3BAB3500A38DE3 /* 大约在冬季.lrc */,
+				DAF103B21C3BAB3500A38DE3 /* 大约在冬季.mp3 */,
+				DAF103B31C3BAB3500A38DE3 /* 我的歌声里.lrc */,
+				DAF103B41C3BAB3500A38DE3 /* 我的歌声里.mp3 */,
+				DAF103B51C3BAB3500A38DE3 /* 白月光.lrc */,
+				DAF103B61C3BAB3500A38DE3 /* 白月光.mp3 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF103501C3B99B100A38DE3 /* AudioDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF103681C3B99B100A38DE3 /* Build configuration list for PBXNativeTarget "AudioDemo" */;
+			buildPhases = (
+				DAF1034D1C3B99B100A38DE3 /* Sources */,
+				DAF1034E1C3B99B100A38DE3 /* Frameworks */,
+				DAF1034F1C3B99B100A38DE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioDemo;
+			productName = AudioDemo;
+			productReference = DAF103511C3B99B100A38DE3 /* AudioDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF103491C3B99B100A38DE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LiuWeiZhen;
+				TargetAttributes = {
+					DAF103501C3B99B100A38DE3 = {
+						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DAF1034C1C3B99B100A38DE3 /* Build configuration list for PBXProject "AudioDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF103481C3B99B100A38DE3;
+			productRefGroup = DAF103521C3B99B100A38DE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF103501C3B99B100A38DE3 /* AudioDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF1034F1C3B99B100A38DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D555A01C3E0F31002371B2 /* 谢谢你的爱1999.mp3 in Resources */,
+				A4D555871C3E0F31002371B2 /* 十七岁的雨季.lrc in Resources */,
+				A4D555A41C3E0F31002371B2 /* 阴天.png in Resources */,
+				DAF103BA1C3BAB3500A38DE3 /* 喜欢你.mp3 in Resources */,
+				A4D5558B1C3E0F31002371B2 /* 单身情歌.mp3 in Resources */,
+				DAF103BE1C3BAB3500A38DE3 /* 大约在冬季.mp3 in Resources */,
+				DAF103641C3B99B100A38DE3 /* LaunchScreen.storyboard in Resources */,
+				A4D555911C3E0F31002371B2 /* 大约在冬季.mp3 in Resources */,
+				DAF103C01C3BAB3500A38DE3 /* 我的歌声里.mp3 in Resources */,
+				DAF103C11C3BAB3500A38DE3 /* 白月光.lrc in Resources */,
+				DAF103BF1C3BAB3500A38DE3 /* 我的歌声里.lrc in Resources */,
+				A4D555A11C3E0F31002371B2 /* 谢谢你的爱1999.png in Resources */,
+				DAF103D31C3CB2B600A38DE3 /* test_3.jpg in Resources */,
+				A4D5558A1C3E0F31002371B2 /* 单身情歌.lrc in Resources */,
+				DAF103611C3B99B100A38DE3 /* Assets.xcassets in Resources */,
+				A4D555A31C3E0F31002371B2 /* 阴天.mp3 in Resources */,
+				A4D5559E1C3E0F31002371B2 /* 蜀绣.png in Resources */,
+				A4D555961C3E0F31002371B2 /* 白月光.lrc in Resources */,
+				A4D5559D1C3E0F31002371B2 /* 蜀绣.mp3 in Resources */,
+				DAF103721C3B9C3200A38DE3 /* LocalAudioViewController.storyboard in Resources */,
+				DAF103D11C3CB2B600A38DE3 /* test_2.jpg in Resources */,
+				A4D5559B1C3E0F31002371B2 /* 红豆.png in Resources */,
+				DAF103D61C3CB2BC00A38DE3 /* test_4.jpg in Resources */,
+				DAF103BD1C3BAB3500A38DE3 /* 大约在冬季.lrc in Resources */,
+				A4D555921C3E0F31002371B2 /* 大约在冬季.png in Resources */,
+				DAF103741C3B9C3D00A38DE3 /* RemoteAudioViewController.storyboard in Resources */,
+				DAF1040B1C3D0C9600A38DE3 /* placeholder.png in Resources */,
+				A4D5559F1C3E0F31002371B2 /* 谢谢你的爱1999.lrc in Resources */,
+				A4D555A21C3E0F31002371B2 /* 阴天.lrc in Resources */,
+				DAF103B91C3BAB3500A38DE3 /* 喜欢你.lrc in Resources */,
+				DAF103B81C3BAB3500A38DE3 /* 北京北京.mp3 in Resources */,
+				DAF103D21C3CB2B600A38DE3 /* test_1.jpg in Resources */,
+				A4D555881C3E0F31002371B2 /* 十七岁的雨季.mp3 in Resources */,
+				A4D5559A1C3E0F31002371B2 /* 红豆.mp3 in Resources */,
+				A4D555931C3E0F31002371B2 /* 春天花会开.lrc in Resources */,
+				A4D555941C3E0F31002371B2 /* 春天花会开.mp3 in Resources */,
+				A4D555891C3E0F31002371B2 /* 十七岁的雨季.png in Resources */,
+				A4D555951C3E0F31002371B2 /* 春天花会开.png in Resources */,
+				A4D555901C3E0F31002371B2 /* 大约在冬季.lrc in Resources */,
+				DAF103D41C3CB2B600A38DE3 /* test_5.jpg in Resources */,
+				A4D555981C3E0F31002371B2 /* 白月光.png in Resources */,
+				DAF103BB1C3BAB3500A38DE3 /* 夏洛特烦恼.lrc in Resources */,
+				A4D555971C3E0F31002371B2 /* 白月光.mp3 in Resources */,
+				A4D5558F1C3E0F31002371B2 /* 夜太黑.png in Resources */,
+				A4D5559C1C3E0F31002371B2 /* 蜀绣.lrc in Resources */,
+				A4D555991C3E0F31002371B2 /* 红豆.lrc in Resources */,
+				A4D5558C1C3E0F31002371B2 /* 单身情歌.png in Resources */,
+				DAF103CC1C3CAA2600A38DE3 /* test_0.jpg in Resources */,
+				DAF103BC1C3BAB3500A38DE3 /* 夏洛特烦恼.mp3 in Resources */,
+				DAF1035F1C3B99B100A38DE3 /* Main.storyboard in Resources */,
+				A4D5558E1C3E0F31002371B2 /* 夜太黑.mp3 in Resources */,
+				A4D5558D1C3E0F31002371B2 /* 夜太黑.lrc in Resources */,
+				DAF103C21C3BAB3500A38DE3 /* 白月光.mp3 in Resources */,
+				DAF103B71C3BAB3500A38DE3 /* 北京北京.lrc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF1034D1C3B99B100A38DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF104091C3D042F00A38DE3 /* UIImage+ZZHelper.m in Sources */,
+				DAF1035C1C3B99B100A38DE3 /* ViewController.m in Sources */,
+				DAF103C81C3BB94700A38DE3 /* ZZLRCParser.m in Sources */,
+				DAF104061C3CFA6B00A38DE3 /* ZZArtworkHelper.m in Sources */,
+				DAF1036D1C3B9BA400A38DE3 /* LocalAudioViewController.m in Sources */,
+				DAF103591C3B99B100A38DE3 /* AppDelegate.m in Sources */,
+				DAF103C51C3BB3A200A38DE3 /* ZZAudioItem.m in Sources */,
+				DAF103701C3B9BB000A38DE3 /* RemoteAudioViewController.m in Sources */,
+				DAF103561C3B99B100A38DE3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAF1035D1C3B99B100A38DE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF1035E1C3B99B100A38DE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAF103621C3B99B100A38DE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF103631C3B99B100A38DE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAF103661C3B99B100A38DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAF103671C3B99B100A38DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF103691C3B99B100A38DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weizhen.AudioDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAF1036A1C3B99B100A38DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weizhen.AudioDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF1034C1C3B99B100A38DE3 /* Build configuration list for PBXProject "AudioDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF103661C3B99B100A38DE3 /* Debug */,
+				DAF103671C3B99B100A38DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF103681C3B99B100A38DE3 /* Build configuration list for PBXNativeTarget "AudioDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF103691C3B99B100A38DE3 /* Debug */,
+				DAF1036A1C3B99B100A38DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAF103491C3B99B100A38DE3 /* Project object */;
+}
